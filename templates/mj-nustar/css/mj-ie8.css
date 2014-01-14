@@ -1,0 +1,57 @@
+/*
+* @package mj_vm
+* @copyright (C) 2012 by Dasinfomedia - All rights reserved!
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+ul.nav-child {
+	border-top: 1px solid #f0f0f0;
+	position: relative !important;
+	
+}
+
+ul.nav-child li:hover > .nav-child {
+	display: block !important;
+	position: absolute !important;
+	z-index: 100 !important;
+	top: -1px !important;
+	left: 100% !important;
+}
+/*.mj-mainnav.navbar .nav > li:hover > ul.nav-child {
+	 display: block !important;
+    position: absolute;
+  
+}*/
+
+.mj-mainnav.navbar .nav > li {
+	position: relative !important;
+}
+/*ul.nav-child > li:hover > ul.nav-child {
+    display: block !important;
+    position: absolute !important;
+    z-index: 100 !important;
+	
+}*/
+.mj-mainnav.navbar .nav > li ul.nav-child li
+ {
+	position: relative !important;
+}
+
+ul.nav-child li:hover > ul.nav-child {
+	display: block !important;
+	position: absolute !important;
+	z-index: 100 !important;
+	top: -1px !important;
+	left: 100% !important;
+}
+
+/*.mj-modulecontainer.mj_menu ul li, .mj-modulecontainer.menu ul li {
+    display: block !important;
+}*/
+
+.additional-images .floatleft
+{
+	width:15%;
+}

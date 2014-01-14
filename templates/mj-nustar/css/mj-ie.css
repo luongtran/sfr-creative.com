@@ -1,0 +1,45 @@
+/* CSS For IE-7 and lower version */
+
+*+html .mj-grid32 {
+	width: 30%;
+}
+
+*+html .mj-grid48
+{
+	width: 47%;
+}
+
+*+html .mj-grid16 {
+    width: 13.666%;
+}
+
+*+html .mj-grid72 {
+    width: 70%;
+}
+
+*+html .mj-grid24 {
+    width: 22%;
+}
+
+*+html .mj-grid88 {
+    width: 89.60%;
+}
+
+*+html .mj-grid8 {
+    width: 6.30%;
+}
+
+*+html .nspCol3 {
+    width: 32.3%;
+}
+
+/*start your css from here*/
+
+#mj-righttop {
+	width: 67%;
+}
+
+*+html ul.menu li ul
+{
+	top:18px;
+}
