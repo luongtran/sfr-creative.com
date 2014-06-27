@@ -7,27 +7,20 @@
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?j" type="text/css" media="screen" />
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/functions.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modernizr.custom.js"></script>
-        
-        <!-- Add mousewheel plugin (this is optional) -->
-	<script type="<?php bloginfo('template_url'); ?>/js/jquery.mousewheel-3.0.6.pack.js"></script>
-
-	<!-- Add fancyBox main JS and CSS files -->
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox.js?v=2.1.5"></script>
-
-	<!-- Add Button helper (this is optional) -->
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox-buttons.js?v=1.0.5"></script>
-
-	<!-- Add Thumbnail helper (this is optional) -->
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
-	<!-- Add Media helper (this is optional) -->
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox-media.js?v=1.0.6"></script>
-        
+		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modernizr.custom.js"></script>
+			<!-- Add mousewheel plugin (this is optional) -->
+		<script type="<?php bloginfo('template_url'); ?>/js/jquery.mousewheel-3.0.6.pack.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox.js?v=2.1.5"></script>
+		<!-- Add Button helper (this is optional) -->
+		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<!-- Add Thumbnail helper (this is optional) -->
+		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+		<!-- Add Media helper (this is optional) -->
+		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox-media.js?v=1.0.6"></script>
         
         <?php wp_head(); ?> 
         
