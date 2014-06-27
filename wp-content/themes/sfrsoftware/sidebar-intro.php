@@ -9,7 +9,7 @@
 				</ol>
 				<div class="carousel-inner">
                                     <?php
-                                        $count = 1; //sologan 1
+                                        $count = 1; //sologan first
                                         $featured_args = array(
                                             'posts_per_page' => 3,
                                             'post_type' => 'sologan',
