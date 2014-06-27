@@ -1,0 +1,28 @@
+#container {
+	margin: 0 auto;
+	text-align: left;
+	width: 70%; /* Target: 940px; */
+	padding: 10px 0;
+}
+.left-col {
+	width: 66%;
+	float: left;
+}
+.right-col {
+	float: right;
+	width: 32%;
+	margin-left: 2%;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.group:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}

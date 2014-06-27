@@ -1,0 +1,1 @@
+<img src="<?php print IMAGES;?>/404.png" alt="404'd!"/>
