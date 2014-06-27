@@ -1,4 +1,4 @@
-<div id="intro" class="row">
+<div id="intro">
 	<div class="col-sm-8  n-pl">	
 		<div class="col-sm-10 n-pl">
 			<div id="myCarousel" class=" carousel slide">
@@ -62,7 +62,7 @@
 		</div>
 	</div>
 </div>
-<div id="intro-button" class="row">
+<div id="intro-button">
 	<div class="col-sm-8  n-pl">
 		<div class="col-sm-10 n-pl">
 			<button class="btn btn-primary">See our works</button>
