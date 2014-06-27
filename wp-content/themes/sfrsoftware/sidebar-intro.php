@@ -9,7 +9,7 @@
 				</ol>
 				<div class="carousel-inner">
                                     <?php
-                                        $count = 1;
+                                        $count = 1; //sologan 1
                                         $featured_args = array(
                                             'posts_per_page' => 3,
                                             'post_type' => 'sologan',
@@ -17,7 +17,7 @@
                                         $query = new WP_Query( $featured_args );
                                         if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();
                                         if($count==1) {
-                                        ?>
+                                        ?> 
                                             <div class="item active" >
                                                    <div id="saying" class="clearfix">
                                                            <div class=" col-sm-10 col-sm-offset-1">
