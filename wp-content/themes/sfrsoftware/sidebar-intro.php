@@ -20,7 +20,7 @@
                                         ?>
                                             <div class="item active" >
                                                    <div id="saying" class="clearfix">
-                                                           <div class=" col-sm-9 col-sm-offset-3">
+                                                           <div class=" col-sm-10 col-sm-offset-1">
                                                                     <h2>
                                                                         <?php echo '<i>" </i>';
                                                                              remove_filter ('the_content', 'wpautop'); 
@@ -35,7 +35,7 @@
                                         <?php } else {?>
                                             <div class="item" >
                                                    <div id="saying" class="clearfix">
-                                                           <div class=" col-sm-9 col-sm-offset-3">
+                                                           <div class=" col-sm-10 col-sm-offset-1">
                                                                     <h2>
                                                                         <?php echo '<i>" </i>';
                                                                              remove_filter ('the_content', 'wpautop'); 
