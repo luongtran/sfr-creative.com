@@ -187,7 +187,7 @@
 	/* Apply fancybox to multiple items */
 	
 	$("a#inline").fancybox({
-                maxWidth	: 275,
+                maxWidth	: 295,
                 width		: '70%',
 		'transitionIn'	:	'elastic',
 		'transitionOut'	:	'elastic',
