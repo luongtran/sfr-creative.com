@@ -127,7 +127,7 @@
 	-webkit-transform: translateY(-10%);
 	-moz-transform: translateY(-50px);
 	-ms-transform: translateY(-50px);
-	transform: translateY(-50px);
+	transform: translateY(-15px);
 }
 
 .cs-style-3 figcaption {
