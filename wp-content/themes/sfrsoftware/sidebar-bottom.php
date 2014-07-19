@@ -5,8 +5,9 @@
                                 <h3>Laster News</h3>
                             </div>
                             <ul class="news-list list-unstyled">
-                            <?php  
-                            $query = new WP_Query('posts_per_page=2');
+                            <?php
+                            $input = array('posts_per_page'=>2,'tag'=>'News');
+                            $query = new WP_Query($input);
                             if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
                                 <li class="row">                                
 									<h2></h2>							 	
@@ -31,44 +32,20 @@
                                 <h3>Testimonilas</h3>
                             </div>
                             <div class="clearfix">
+                            <?php
+                            $input = array('posts_per_page'=>2,'tag'=>'Testimonilas');
+                            $query = new WP_Query($input);
+                            if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
                                 <div class="col-xs-6">
                                     <div class="clearfix">
-                                        <div class="feedback-quote">
-                                            <i>&quot;</i><br/>
-                                            Ut wisi enim ad minim quis nostrud exerci tation veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                            <br>
-                                            <i>&quot;</i>
-                                        </div>
-                                        <div class="feedback-client clearfix">
-                                            <div class="col-xs-4">
-                                                <img src="<?php print IMAGES; ?>/sfrTeam_35.jpg" class="img-responsive" />
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p class="client-name">Yzachi</p>
-                                                <p class="client-position ">CEO AZB</p>
-                                            </div>
-                                        </div>
+                                    <?php
+                                        remove_filter ('the_content', 'wpautop'); 
+                                            the_content(); 
+                                        add_filter ('the_content', 'wpautop');
+                                    ?>
                                     </div>
                                 </div>
-                                <div class="col-xs-6">
-                                    <div class="clearfix">
-                                        <div class="feedback-quote">
-                                            <i>&quot;</i><br/>
-                                            Ut wisi enim ad minim quis nostrud exerci tation veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                            <br>
-                                            <i>&quot;</i>
-                                        </div>
-                                        <div class="feedback-client clearfix">
-                                            <div class="col-xs-4">
-                                                <img src="<?php print IMAGES; ?>/sfrTeam_33.jpg" class="img-responsive" />
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p class="client-name">Yzachi</p>
-                                                <p class="client-position ">CEO AZB</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <?php endwhile; endif;?>
                             </div>
                         </div>
                     </div>

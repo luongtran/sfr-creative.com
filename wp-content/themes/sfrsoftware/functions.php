@@ -10,7 +10,7 @@
     add_image_size('featured-thumb', 1000, 1000, false); //Size ảnh thumbnail của .featured-post.
     add_image_size('normal', 260, 210, false); //Size ảnh thumbnail của .featured-post.
     add_image_size('big-img', 250, 200, false); //Size ảnh thumbnail của .featured-post.
-
+    add_image_size('avatar-ceo', 50, 44, false); //Size ảnh thumbnail của .featured-post.
     //example
     /*if ( function_exists( 'add_image_size' ) ) { 
         add_image_size('featured-thumb', 1000, 1000, true); //Size ảnh thumbnail của .featured-post.
