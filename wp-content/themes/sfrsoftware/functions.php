@@ -95,7 +95,7 @@
         'publicly_queryable' => true, //Hiển thị các tham số trong query, phải đặt true
         'capability_type' => 'post' //
     );
- 
+    flush_rewrite_rules();
     register_post_type('dichvu', $args); //Tạo post type với slug tên là sanpham và các tham số trong biến $args ở trên
     }
     /* Kích hoạt hàm tạo custom post type */
