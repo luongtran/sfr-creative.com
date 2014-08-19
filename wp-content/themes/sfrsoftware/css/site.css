@@ -288,3 +288,7 @@ a:hover#mailto{
     text-decoration: none;
     color: #CEA914;
 }
+#menu-short .popover.bottom {
+width: 200px;
+left: -65px !important;
+}
