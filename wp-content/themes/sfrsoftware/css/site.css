@@ -76,7 +76,8 @@ body {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
 }
 #saying   {
-    color: #fff
+    color: #fff;
+    text-align: center;
 }
 #intro-button {
     text-align: center;
