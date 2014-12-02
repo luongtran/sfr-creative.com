@@ -320,3 +320,9 @@ left: -65px !important;
     white-space: nowrap;
     float: right
 }
+#contact_form_pop .fancybox-skin {
+    border-radius: 0 !important;
+}
+#contact_form_pop .form-control {
+     border-radius: 0 !important;
+}
