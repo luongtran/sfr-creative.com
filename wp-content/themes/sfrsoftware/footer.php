@@ -6,7 +6,7 @@
                 <div class="col-sm-12 nopadding">
                     <div class="col-sm-2 nopadding bottom-logo">
                         <a class="col-sm-12 nopadding"  href="<?php bloginfo('url'); ?>" title="">
-                            <img src="<?php print IMAGES; ?>/header-logo.png" class="img-responsive" />
+                            <img src="<?php print IMAGES; ?>/top-logo.png" class="img-responsive" />
                             <!--<span>SMART - FAST - RESPONSIBLE</span>-->
                         </a>
                     </div>
