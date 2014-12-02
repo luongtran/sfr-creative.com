@@ -293,3 +293,30 @@ a:hover#mailto{
 width: 200px;
 left: -65px !important;
 }
+.fancybox-inner {
+    width: auto !important;
+    height: auto !important;
+    overflow: hidden !important;
+}
+#contact_form_pop label {
+    font-size: 0.9em;
+}
+#contact_form_pop .wpcf7-textarea {
+    height: 182px
+}
+#contact_form_pop [type="submit"]{
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    float: right
+}
